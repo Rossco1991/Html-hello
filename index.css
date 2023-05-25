@@ -1,0 +1,89 @@
+body {
+    font-family: Roboto;
+    background-color: rgb(205, 222, 255);
+}
+
+
+.topPage {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    border: outset 5px rgb(59, 59, 59);
+    background-color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5px;
+
+}
+
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.Container {
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Box {
+
+    background: white;
+    justify-content: center;
+    display: flex;
+    margin: 15% auto;
+    box-sizing: border-box;
+    border: inset 1px rgb(150, 150, 150);
+}
+
+
+img {
+    object-fit: cover;
+    border: outset 4px black;
+}
+
+
+.footer {
+    display: flex;
+    padding-left: 4%;
+    justify-content: left;
+    height: 10%;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    left: 70%;
+
+}
+
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+
+.icon2 {
+    left: 65%;
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+
+}
+
+.icon3 {
+    left: 74%;
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+span {
+    padding-top: 6%;
+}
